@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    font-family: 'Questrial', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin-left: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#tambahtugas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
     <title>Daftar Tugas</title>
 </head>
 <body>
@@ -15,11 +16,14 @@
         <button type="submit">+</button>
     </form>
     
-    <section>
-        <ul id="daftartugas">
-            <li class="tugas">Contoh Tugas<button class="hapus-btn">✔</button></li>
-        </ul>
-    </section>
+    <table>
+        <tbody id="daftartugas">
+            <tr>
+                <td class="tugas">Contoh Tugas</td>
+                <td><button class="hapus-btn">✔</button></td>
+            </tr>
+        </tbody>
+    </table>
 
     <script src="tugas.js"></script>
 </body>

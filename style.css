@@ -4,29 +4,67 @@
     font-family: 'Questrial', sans-serif;
 }
 
+body {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white url("bg.png") no-repeat fixed center;
+}
+
 h1 {
     text-align: center;
+    font-size: 64px;
 }
 
-button {
-    margin-left: 10px;
-}
-
-section {
+table {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-ul {
-    padding-left: 0;
+tr:nth-child(even) {
+    background-color: whitesmoke;
 }
 
-li {
-    margin-bottom: 10px;
+tr:nth-child(odd) {
+    background-color: oldlace;
 }
 
 #tambahtugas {
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+button[type="submit"] {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 10px;
+    border: 0px;
+    background-color: gold;
+    font-size: large;
+    font-weight: bolder;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: goldenrod;
+}
+
+.hapus-btn {
+    width: 40px;
+    background-color: azure;
+    border-radius: 10%;
+    border: 1px solid gray;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

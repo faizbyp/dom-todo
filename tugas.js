@@ -46,6 +46,7 @@ function tambahTugas(e){
         // Memasukkan table row baru ke table daftar tugas
         daftarTugas.appendChild(tr);
     
+        document.getElementById('judultugas').value = '';
         console.log('Berhasil menambah tugas: ' + namaTugas);
     }
 
